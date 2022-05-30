@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* 예시 */
+/*
+body {
+    color: $color;을 해줘야한다. 이유는 body에 들어가는 색상은 미리 지정해준상태로 넣어주기때문에
+    그래서 상단에 $color: red;라고 먼저 지정해서 들어갈 것
+*/
+body {
+  color: red;
+}
+/*# sourceMappingURL=text.css.map */

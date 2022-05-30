@@ -66,7 +66,7 @@ live sass"를 적으면 "Live Sass Compile > Settings: Autoprefix의 밑에
         {
             "format": "expanded",
             "extensionName": ".css",
-            "savePath": null
+            "savePath": "./SASS연결_예시/CSS/css"
         }
     ]
 }
@@ -74,8 +74,8 @@ live sass"를 적으면 "Live Sass Compile > Settings: Autoprefix의 밑에
 liveSassCompile.settings.formats:[]에서 변경시켜야하는 부분은 "savePath: null로 되어있는
 부분을 변경시켜야한다. "savePath": null부분에 어느부분에 넣을 것인가를 적어줘야 한다. 
 자신이 지정할 파일의 경로까지면 연결하면 된다.
-예를 들어 "Sass프로젝트 준비(외부 큰 제일 처음파일) > assets > images, css, scss 까지의
-파일이 있을 경우 "savePath": "./assets/css까지만 열결해주면 연결이 된다.
+예를 들어 "Sass프로젝트 준비(외부 큰 제일 처음파일) > SASS연결_예시 > CSS > css, images, scss까지의
+파일이 있을 경우 "savePath": "./SASS연결_예시/CSS/css"까지만 적어주면 연결이 된다.
 
 
 9. 정상적으로 실행되는지 확인하는 방법
@@ -84,4 +84,8 @@ CSS에 연결되서 css가 생성된다.
 SASS에서 변경한 후 save를 하면 css에도 적용된다.
 
 
-10. 세팅 후 Sass 프로그램은 자동으로 실행되지 않고 Sass를 누르고 실행이되면 Sass는 동작하는 것
+10. 세팅 후 Sass 프로그램은 자동으로 실행되지 않고 Sass를 누르고 실행이되면 Sass는 동작하는 것'
+
+11. 막간의 팁 VSC(Visual Studio Code)의 하단 파란색 선에 Watch Sass가 나타나지 않는건 ~.scss파일을 생성해줬을때  나타난다.
+
+12. ~.scss를 생성해주고 문법을 작성후 Watch Sass를 눌러서 실행을 시켜야 연결한 css의 파일에 ~.css파일이 생성되고 적용한 문법의 값이 적용 됨
