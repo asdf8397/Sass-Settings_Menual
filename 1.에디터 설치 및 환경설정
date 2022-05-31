@@ -89,3 +89,4 @@ SASS에서 변경한 후 save를 하면 css에도 적용된다.
 11. 막간의 팁 VSC(Visual Studio Code)의 하단 파란색 선에 Watch Sass가 나타나지 않는건 ~.scss파일을 생성해줬을때  나타난다.
 
 12. ~.scss를 생성해주고 문법을 작성후 Watch Sass를 눌러서 실행을 시켜야 연결한 css의 파일에 ~.css파일이 생성되고 적용한 문법의 값이 적용 됨
+
